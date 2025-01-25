@@ -1,0 +1,48 @@
+using UnityEngine;
+
+public class ZufallszahlAusgabe : MonoBehaviour
+{
+    void Start()
+    {
+        // Zufällige Zahl zwischen 1 und 5 generieren
+        int zufallszahl = Random.Range(1, 11); // Die obere Grenze ist exklusiv, daher 6
+
+        // Verschiedene Texte ausgeben
+        switch (zufallszahl)
+        {
+            case 1:
+                Debug.Log("1");
+                break;
+            case 2:
+                Debug.Log("2");
+                break;
+            case 3:
+                Debug.Log("3");
+                break;
+            case 4:
+                Debug.Log("4");
+                break;
+            case 5:
+                Debug.Log("5");
+                break;
+            case 6:
+                Debug.Log("6")  
+                break;
+            case 7:
+                Debug.Log("7")
+                Break;
+            case 8:
+                Debug.Log("8")
+                break;
+            case 9:
+                Debug.Log("9") 
+                break;
+            case 10:
+                Debug.Log("10")
+                break;                  
+            default:
+                Debug.Log("Fehler 5679");
+                break;
+        }
+    }
+}
